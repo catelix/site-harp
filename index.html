@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harp - Explore, Estude, Viva Irlanda</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>Harp</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#programas">Programas</a></li>
+                    <li><a href="#irlanda">Irlanda</a></li>
+                    <li><a href="#contato" class="btn-contato">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animate-text">Explore, Estude, Viva Irlanda</h1>
+                <p class="animate-text">Seu sonho de estudar na Irlanda começa aqui. Orientação completa para estudantes brasileiros.</p>
+                <a href="#contato" class="btn btn-primary animate-text">Comece Sua Jornada</a>
+            </div>
+            <div class="feature-cards">
+                <div class="feature-card">
+                    <i class="fas fa-university"></i>
+                    <h3>Escolha de Escolas</h3>
+                    <p>Orientação personalizada para encontrar a instituição ideal</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-coins"></i>
+                    <h3>Planejamento Financeiro</h3>
+                    <p>Estratégias para custear seus estudos no exterior</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-plane-arrival"></i>
+                    <h3>Suporte na Chegada</h3>
+                    <p>Assistência nos primeiros passos na Irlanda</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nós -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <div class="section-title">
+                <h2>Sobre Nós</h2>
+                <div class="accent-line"></div>
+            </div>
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <h3>Nossa Missão</h3>
+                    <p>Apoiar estudantes brasileiros a realizar seus sonhos na Irlanda, oferecendo orientação personalizada em cada etapa da jornada.</p>
+                    <p>Com anos de experiência e conhecimento local, a Harp se tornou referência para quem deseja estudar inglês ou fazer mestrado na Irlanda.</p>
+                    <a href="#contato" class="btn btn-secondary">Fale Conosco</a>
+                </div>
+                <div class="sobre-image">
+                    <img src="images/team-new.jpg" alt="Equipe Harp">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="servicos">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Serviços</h2>
+                <div class="accent-line"></div>
+            </div>
+            <div class="servicos-grid">
+                <div class="servico-card">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>Escolha de Cidade e Escola</h3>
+                    <p>Orientação personalizada baseada em seus objetivos, orçamento e preferências.</p>
+                </div>
+                <div class="servico-card">
+                    <i class="fas fa-calculator"></i>
+                    <h3>Planejamento Financeiro</h3>
+                    <p>Análise detalhada de custos e estratégias para otimizar seu orçamento.</p>
+                </div>
+                <div class="servico-card">
+                    <i class="fas fa-credit-card"></i>
+                    <h3>Opções de Financiamento</h3>
+                    <p>Informações sobre bolsas, financiamentos e formas de pagamento disponíveis.</p>
+                </div>
+                <div class="servico-card">
+                    <i class="fas fa-home"></i>
+                    <h3>Acomodação</h3>
+                    <p>Suporte na busca por moradia que atenda suas necessidades e orçamento.</p>
+                </div>
+                <div class="servico-card">
+                    <i class="fas fa-passport"></i>
+                    <h3>Documentação</h3>
+                    <p>Orientação completa sobre vistos, seguros e documentos necessários.</p>
+                </div>
+                <div class="servico-card">
+                    <i class="fas fa-plane-arrival"></i>
+                    <h3>Suporte na Chegada</h3>
+                    <p>Assistência nos primeiros passos na Irlanda, desde a chegada ao aeroporto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programas de Estudo -->
+    <section id="programas" class="programas">
+        <div class="container">
+            <div class="section-title">
+                <h2>Programas de Estudo</h2>
+                <div class="accent-line"></div>
+            </div>
+            <div class="tabs">
+                <div class="tab-header">
+                    <div class="tab-btn active" data-tab="ingles">Cursos de Inglês</div>
+                    <div class="tab-btn" data-tab="mestrado">Mestrados</div>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="ingles">
+                        <h3>Cursos de Inglês na Irlanda</h3>
+                        <p>Aperfeiçoe seu inglês em um ambiente imersivo e culturalmente rico.</p>
+                        <ul class="programa-lista">
+                            <li><strong>Cursos Intensivos:</strong> 20-25 horas semanais, foco em fluência rápida</li>
+                            <li><strong>Preparatório IELTS/Cambridge:</strong> Foco em exames de proficiência</li>
+                            <li><strong>Business English:</strong> Vocabulário e habilidades para ambiente corporativo</li>
+                            <li><strong>Duração:</strong> 2 semanas a 1 ano</li>
+                            <li><strong>Investimento:</strong> A partir de €3.000 (curso de 8 semanas)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" id="mestrado">
+                        <h3>Mestrados na Irlanda</h3>
+                        <p>Programas de pós-graduação reconhecidos internacionalmente em diversas áreas.</p>
+                        <ul class="programa-lista">
+                            <li><strong>Áreas Populares:</strong> Tecnologia, Negócios, Saúde, Artes</li>
+                            <li><strong>Duração:</strong> 1-2 anos</li>
+                            <li><strong>Requisitos:</strong> Diploma de graduação, IELTS 6.5 ou equivalente</li>
+                            <li><strong>Investimento:</strong> €12.000-€29.000/ano (taxas acadêmicas)</li>
+                            <li><strong>Oportunidades:</strong> Possibilidade de trabalhar 20h/semana durante os estudos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destino: Irlanda -->
+    <section id="irlanda" class="irlanda">
+        <div class="container">
+            <div class="section-title">
+                <h2>Destino: Irlanda</h2>
+                <div class="accent-line"></div>
+            </div>
+            <div class="irlanda-grid">
+                <div class="irlanda-card">
+                    <h3>Cultura</h3>
+                    <p>País acolhedor, com rica tradição musical, literária e festiva. Os irlandeses são conhecidos por sua hospitalidade e ambiente amigável para estudantes internacionais.</p>
+                </div>
+                <div class="irlanda-card">
+                    <h3>Clima</h3>
+                    <p>Temperado oceânico, com temperaturas amenas (raramente abaixo de 0°C ou acima de 25°C). Chuvas frequentes distribuídas ao longo do ano, com paisagens sempre verdes.</p>
+                </div>
+                <div class="irlanda-card">
+                    <h3>Custo de Vida</h3>
+                    <p>Custo médio anual: €12.000-€15.000, excluindo taxas acadêmicas. Dublin é mais cara que outras cidades como Cork, Galway ou Limerick.</p>
+                </div>
+                <div class="irlanda-card">
+                    <h3>Trabalho</h3>
+                    <p>Estudantes podem trabalhar até 20 horas por semana durante o período letivo e em tempo integral durante as férias escolares.</p>
+                </div>
+            </div>
+            <div class="irlanda-gallery">
+                <h3 class="city-section-title">Principais Cidades para Estudantes</h3>
+                <div class="city-cards">
+                    <div class="city-card">
+                        <div class="city-image">
+                            <svg width="100%" height="100%" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="100%" height="100%" fill="#00843D" opacity="0.2"/>
+                                <text x="50%" y="50%" font-family="Poppins, sans-serif" font-size="32" fill="#00843D" text-anchor="middle" dominant-baseline="middle">Dublin</text>
+                            </svg>
+                        </div>
+                        <div class="city-info">
+                            <h4>Dublin</h4>
+                            <p class="city-tagline">Capital e centro cultural da Irlanda</p>
+                            <ul class="city-highlights">
+                                <li><i class="fas fa-university"></i> Universidades de renome mundial como Trinity College</li>
+                                <li><i class="fas fa-building"></i> Sede de empresas tecnológicas internacionais</li>
+                                <li><i class="fas fa-coffee"></i> Vibrante vida noturna e cultural</li>
+                                <li><i class="fas fa-euro-sign"></i> Custo de vida mais elevado (€1000-1400/mês)</li>
+                            </ul>
+                            <p class="city-description">Dublin combina tradição e modernidade, oferecendo excelentes oportunidades acadêmicas e profissionais para estudantes internacionais.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="city-card">
+                        <div class="city-image">
+                            <svg width="100%" height="100%" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="100%" height="100%" fill="#0D47A1" opacity="0.2"/>
+                                <text x="50%" y="50%" font-family="Poppins, sans-serif" font-size="32" fill="#0D47A1" text-anchor="middle" dominant-baseline="middle">Galway</text>
+                            </svg>
+                        </div>
+                        <div class="city-info">
+                            <h4>Galway</h4>
+                            <p class="city-tagline">Cidade universitária vibrante e cultural</p>
+                            <ul class="city-highlights">
+                                <li><i class="fas fa-university"></i> National University of Ireland Galway (NUIG)</li>
+                                <li><i class="fas fa-music"></i> Rica tradição musical e festivais culturais</li>
+                                <li><i class="fas fa-water"></i> Localização costeira com paisagens deslumbrantes</li>
+                                <li><i class="fas fa-euro-sign"></i> Custo de vida mais acessível (€800-1100/mês)</li>
+                            </ul>
+                            <p class="city-description">Galway oferece uma experiência autêntica irlandesa em um ambiente acolhedor, ideal para estudantes que buscam imersão cultural.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="city-card">
+                        <div class="city-image">
+                            <svg width="100%" height="100%" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="100%" height="100%" fill="#FF9800" opacity="0.2"/>
+                                <text x="50%" y="50%" font-family="Poppins, sans-serif" font-size="32" fill="#FF9800" text-anchor="middle" dominant-baseline="middle">Cork</text>
+                            </svg>
+                        </div>
+                        <div class="city-info">
+                            <h4>Cork</h4>
+                            <p class="city-tagline">Segunda maior cidade com atmosfera descontraída</p>
+                            <ul class="city-highlights">
+                                <li><i class="fas fa-university"></i> University College Cork (UCC)</li>
+                                <li><i class="fas fa-utensils"></i> Famosa cena gastronômica e mercados locais</li>
+                                <li><i class="fas fa-users"></i> Comunidade acolhedora e diversificada</li>
+                                <li><i class="fas fa-euro-sign"></i> Custo de vida moderado (€850-1200/mês)</li>
+                            </ul>
+                            <p class="city-description">Cork oferece excelente qualidade de vida e oportunidades educacionais em um ambiente menos agitado que Dublin.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <div class="section-title">
+                <h2>Entre em Contato</h2>
+                <div class="accent-line"></div>
+            </div>
+            
+            <!-- WhatsApp Call to Action -->
+            <div class="whatsapp-cta">
+                <div class="whatsapp-cta-content">
+                    <div class="whatsapp-illustration">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" fill="#25D366" viewBox="0 0 16 16">
+                            <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15"/>
+                            <path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                        </svg>
+                    </div>
+                    <div class="whatsapp-text">
+                        <h3>Fale com nossos consultores</h3>
+                        <p>Tire suas dúvidas diretamente pelo WhatsApp e comece sua jornada para a Irlanda agora mesmo! Nossos consultores estão prontos para ajudar você em cada etapa do processo.</p>
+                        <ul class="whatsapp-benefits">
+                            <li><i class="fas fa-check-circle"></i> Atendimento personalizado</li>
+                            <li><i class="fas fa-check-circle"></i> Resposta rápida às suas dúvidas</li>
+                            <li><i class="fas fa-check-circle"></i> Orientação completa sobre documentos</li>
+                            <li><i class="fas fa-check-circle"></i> Suporte em português</li>
+                        </ul>
+                        <div class="whatsapp-contact-info">
+                            <div class="info-item">
+                                <i class="fas fa-envelope"></i>
+                                <p>contato@harp.com</p>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <p>+353 83 458 6382</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://wa.me/353834586382?text=Hi%20Harp" class="whatsapp-button" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Iniciar Conversa no WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Chat Button -->
+    <a href="https://wa.me/353864559596" class="whatsapp-button" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        <span>Fale Conosco</span>
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Harp</h2>
+                    <p>Explore, Estude, Viva Irlanda</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#programas">Programas</a></li>
+                        <li><a href="#irlanda">Irlanda</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Receba Novidades</h3>
+                    <p>Inscreva-se para receber dicas e informações sobre estudar na Irlanda</p>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Seu e-mail" required>
+                        <button type="submit">Inscrever</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Harp. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
